@@ -1,0 +1,69 @@
+
+.cardWrapper{
+    width: 168px;
+    display: flex;
+}
+
+#addContact{
+    border: 2px solid orangered;
+}
+#showContactsBtn{
+    border: 2px solid orangered;
+}
+
+.listaContatti{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid orangered;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+#name{
+    border: 2px solid orangered;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+#email{
+    border: 2px solid orangered;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+#number{
+    border: 2px solid orangered;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.divScrollabile{
+    height: 70vh;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar{
+    width: 0.5px;
+}
+
+
+::-webkit-scrollbar-track{
+    border: none;
+    background-color: white;
+}
+
+.search-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+#searchInput{
+    border: 2px solid orangered;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+
+.icon{
+    cursor: pointer;
+}
