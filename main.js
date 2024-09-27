@@ -59,7 +59,7 @@ let rubrica = {
     }
   },
   searchContact : function (nameSearched) {
-    let filtered = this.contacts.filter((el)=>el.nome.toLowerCase() == nameSearched.toLowerCase())
+    let filtered = this.contacts.filter((el)=>el.nome.toLowerCase().includes(nameSearched.toLowerCase()))
     console.log(filtered);
     if(filtered.length>0){
       this.showContact(filtered)
