@@ -37,7 +37,7 @@ let rubrica = {
                         <i class="bi bi-trash3 fs-3 icon text-end pe-4 pb-4"></i>
                     </div>`;
       // appending a node in list
-      cardsWrapper.append(node);
+      cardsWrapper.appendChild(node);
     });
     let icons = document.querySelectorAll('.icon')
     icons.forEach((icon, i)=>{
